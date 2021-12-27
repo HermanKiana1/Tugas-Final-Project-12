@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Singgih Final Test WEB
+Description: ini untuk test web</description>
+   <name>Register Akun</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10074&quot;:&quot;N/A&quot;,&quot;customfield_10078&quot;:&quot;N/A&quot;,&quot;customfield_10159&quot;:[{&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/customFieldOption/10547&quot;,&quot;value&quot;:&quot;Development&quot;,&quot;id&quot;:&quot;10547&quot;}],&quot;customfield_10155&quot;:[],&quot;customfield_10158&quot;:[{&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/customFieldOption/10546&quot;,&quot;value&quot;:&quot;Production&quot;,&quot;id&quot;:&quot;10546&quot;}],&quot;customfield_10037&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;EPIC_LINK_SHOULD_BE_USED&quot;,&quot;message&quot;:&quot;To set an epic as the parent, use the epic link instead&quot;}},&quot;customfield_10019&quot;:&quot;0|i07uxz:&quot;,&quot;customfield_10080&quot;:&quot;finansia.com&quot;,&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10116&quot;:[{&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/customFieldOption/10311&quot;,&quot;value&quot;:&quot;Development&quot;,&quot;id&quot;:&quot;10311&quot;}]},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;https://kb-fmf.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/project/10103&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10103,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Singgih Final Test WEB&quot;,&quot;description&quot;:&quot;ini untuk test web&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;singgih.tanu@finansia.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Singgih Tanu&quot;,&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/user?accountId\u003d6087c691bb0b0500705bd03b&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;singgih.tanu@finansia.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Singgih Tanu&quot;,&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/user?accountId\u003d6087c691bb0b0500705bd03b&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/issue/KAT-9/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[&quot;web&quot;]},&quot;self&quot;:&quot;https://kb-fmf.atlassian.net/rest/api/2/issue/57723&quot;,&quot;key&quot;:&quot;KAT-9&quot;,&quot;id&quot;:57723}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>a1fbe765-dbec-4803-bd67-a157f2c2fc79</testCaseGuid>
+   <variable>
+      <defaultValue>'herman.kiana@finansia.com'</defaultValue>
+      <description></description>
+      <id>6c512cc6-0631-483d-82a2-be44253503f8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
