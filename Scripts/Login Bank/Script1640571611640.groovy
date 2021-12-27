@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Login Bank/a_Login'))
 
 WebUI.setText(findTestObject('Login Bank/input_Email_Input.Email'), 'herman.kiana@finansia.com')
 
-WebUI.setEncryptedText(findTestObject('Login Bank/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
+WebUI.setEncryptedText(findTestObject('Login Bank/input_Password_Input.Password'), 'ptP751IrPEjywMjXb/Ecng==')
 
 WebUI.click(findTestObject('Login Bank/button_Log in'))
 
