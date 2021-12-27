@@ -21,17 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://banksystem-2.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Login Bank 2/a_Login'))
+WebUI.click(findTestObject('Login Bank/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Login Bank 2/input_Email_Input.Email'), 'herman.kiana@finansia.com')
+WebUI.setText(findTestObject('Login Bank/input_Email_Input.Email'), 'herman.kiana@finansia.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Bank 2/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
+WebUI.setEncryptedText(findTestObject('Login Bank/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
 
-WebUI.click(findTestObject('Object Repository/Login Bank 2/button_Log in'))
+WebUI.click(findTestObject('Login Bank/button_Log in'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Login Bank 2/button_Close'))
+WebUI.click(findTestObject('Login Bank/button_Close'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

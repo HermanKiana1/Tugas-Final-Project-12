@@ -43,3 +43,7 @@ if (texterror.equals(true)) {
     WebUI.click(findTestObject('Object Repository/Register/button_Register'))
 }
 
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

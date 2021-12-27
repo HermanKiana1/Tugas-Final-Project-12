@@ -21,21 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://banksystem-demoshop.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Test Login/a_Login'))
+WebUI.click(findTestObject('Login Demo/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Test Login/input_Email_Input.Email'), 'herman.kiana@finansia.com')
+WebUI.setText(findTestObject('Login Demo/input_Email_Input.Email'), 'herman.kiana@finansia.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Test Login/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
+WebUI.setEncryptedText(findTestObject('Login Demo/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
 
-WebUI.click(findTestObject('Object Repository/Test Login/button_Log in'))
+WebUI.click(findTestObject('Login Demo/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Test Login/button_Log in'))
+WebUI.click(findTestObject('Login Demo/button_Log in'))
 
-passwordsalah = WebUI.waitForElementPresent(findTestObject('Test Login/Password salah'), 5)
+passwordsalah = WebUI.waitForElementPresent(findTestObject('Login Demo/Password salah'), 5)
 
 if (passwordsalah.equals(true)) {
-    WebUI.setEncryptedText(findTestObject('Object Repository/Test Login/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
+    WebUI.setEncryptedText(findTestObject('Login Demo/input_Password_Input.Password'), 'sNWMs0TOWSeT1rC5oZgDbA==')
 }
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
